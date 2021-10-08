@@ -1,0 +1,271 @@
+ * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            font-family: 'Montserrat', sans-serif;
+             }
+  /* ---------------------------------navbar---------------- */
+.fa-bars{
+    color: #0066ff;
+    font-size: 25px;
+}
+#ctext {
+    color: hotpink;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #000000;
+ }
+
+#dtext {
+     color: #0066ff;
+     font-size: 35px;
+     text-shadow: 2px 2px 4px #000000;
+     margin-right: 5px;
+}
+nav{
+    background-color: #38095ff7 !important;
+}
+nav ul li{
+    font-weight: bold;
+    }
+nav ul li a:hover{
+    color: darkblue;
+    margin-left: 5px;
+}
+  /* --------------------------video----------------- */
+        .videoo {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .videeo {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -100;
+        }
+
+       
+        #myVideo {
+            width: 100%;
+            height: auto;
+        }
+  /* --------------------------cards----------------- */
+ .sec-page {
+            text-align: center;
+        }
+        .sec-page h1 {
+            color: #0066ff;
+            text-shadow: 2px 2px 4px #000000;
+            padding: 20px 0;
+        }
+        .first {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .first .card {
+            width: 50%;
+            height: 400px;
+            margin: auto;
+            margin-top: 20px;
+            box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+        }
+        .first .card:hover{
+            margin-top: 3px;
+            transition: 1s;
+        }
+  /* --------------------------image----------------- */
+        .baloon {
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+        .baloon img {
+            width: 100%;
+            height: auto;
+        }
+        .baloon h1{
+            margin: 250px 0;
+            text-align: center;
+            font-size: 40pt;
+            color: white;
+            font-weight: bold;
+            text-shadow: 3px 3px 5px blue;
+        }
+  /* --------------------------about-us----------------- */
+ .about-us h1{
+    color: #0066ff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    padding: 10px;
+
+ }
+  /* --------------------------Happy-clients----------------- */
+.happy-clients-heading{
+    color: #0066ff;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.happy-clients img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+}
+.happy-clients img:hover{
+    margin-left: 10px;
+    transition: 2s;
+}
+.happy-clients p{
+    margin-top: 30px;
+}
+.card-title{
+    color: #0066ff;
+    text-shadow: 1px 1px 2px #000000;
+}
+/* ----------------Plan-my-trip--------------------------- */
+.plan-trip{
+    background: transparent;
+    margin: 2% auto;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px;
+    box-shadow: inset   10px 10px 1000px #38095ff7;
+}
+.plan-trip h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px 10px;
+}
+h4{
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 5px 10px;
+
+}
+/* ----------------Contanct--------------------------- */
+.contact-trip{
+    background: transparent;
+    margin: 2% auto;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px;
+    box-shadow: inset   5px 5px 120px #38095ff7;
+}
+.contact-trip h2{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px 10px;
+}
+.col input {
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+ #name {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: solid 1px #242323;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 2%;
+    text-decoration: none;
+    width: 60%;
+}
+/* ----------------Footer--------------------------- */
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: #38095ff7 ;
+    padding: 80px;
+}
+.footer a{
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 5px;
+    box-shadow: 0 0 10px 10px;
+    border-radius: 10px;
+
+}
+.footer a:hover{
+    text-shadow: 1px 1px 2px #000000;
+    transition: 1s;
+}
+.yt:hover {
+     color: red;
+}
+
+.in:hover {
+    color: orangered;
+}
+.link:hover{
+    color: lightyellow;
+}
+.copyright{
+    background-color: #38095ff7;
+    padding: 10px 0;
+    text-align: center;
+}
+.copyright h5{
+        text-shadow: 1px 1px 4px #000000;
+        color: whitesmoke;
+}
+.Feedback{
+    text-align: center;
+}
+.feedbtn{
+    width: 200px;
+}
+/* --------------------End----------------------- */
+        /* ---------------------media query------------- */
+        @media screen and (max-width: 768px) {
+            .sec-page {
+                margin-top: -70px;
+            }
+
+            .back {
+                height: 400px;
+            }
+
+            .ffirst span {
+                padding: 1% 7%;
+            }
+
+            .videeo {
+                display: none;
+            }
+
+            .fb a {
+                padding-left: 80px;
+            }
+        }
+
+        @media screen and (max-width: 425px) {
+            .sec-page {
+                margin-top: -250px;
+            }
+
+            .back {
+                height: 100px;
+            }
+
+            .ffirst span {
+                padding: 1% 3%;
+            }
+
+            .fb a {
+                padding-left: 20px;
+            }
+        }
+}
+}
